@@ -1,0 +1,41 @@
+body {
+  background-color: #e8fffd;
+  padding: 12px;
+  margin: 0;
+}
+h1 {
+  font-family: fantasy;
+  font-size: 40px;
+}
+
+
+h2, p, ul, li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #e4f93f;
+  padding: 0;
+}
+ul.header li a {
+  color: #dd1267;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px;
+  display: inline-block;
+}
+.content {
+  background-color: #00b8e9;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}

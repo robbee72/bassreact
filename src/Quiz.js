@@ -16,7 +16,7 @@ class Quiz extends Component {
             <li><NavLink to="/">Quiz</NavLink></li>
           </ul>
             <div className="content">
-              <Route exact path="/" component={App}/>
+              <Route path="/" component={App}/>
             </div>
         </div>
       </HashRouter>

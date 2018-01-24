@@ -1,10 +1,10 @@
 body {
-  background-color: #e8fffd;
+  background-color: #d3e2e3;
   padding: 12px;
   margin: 0;
 }
 h1 {
-  font-family: fantasy;
+  font-family: sans-serif;
   font-size: 40px;
 }
 
@@ -18,18 +18,28 @@ ul.header li {
   margin: 0;
 }
 ul.header {
-  background-color: #e4f93f;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  background-color: #3f79f9;
   padding: 0;
 }
 ul.header li a {
-  color: #dd1267;
+  color: #000000;
   font-weight: bold;
   text-decoration: none;
   padding: 8px;
   display: inline-block;
 }
 .content {
-  background-color: #00b8e9;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  background-color: #bebe92;
   padding: 20px;
 }
 .content h2 {

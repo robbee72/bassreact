@@ -3,7 +3,7 @@ import update from 'react-addons-update';
 import questionsOnJavascript from './api/questionsOnJavascript';
 import JSQuiz from './components/JSQuiz';
 import Grade from './components/Grade';
-import './App.css';
+import './JSQuiz.css';
 
 class App extends Component {
 
@@ -104,7 +104,7 @@ class App extends Component {
       this.setState({ grade: 'Undetermined' });
     }
   }
-// questionTotal={questionsOnJavascript.length} replace on line 121
+
   renderJSQuiz() {
     return (
       <JSQuiz
@@ -130,7 +130,7 @@ class App extends Component {
         <div className="App-header">
           <h2>Questions: Javascript</h2>
         </div>
-        {this.state.grade ? this.renderGrade() : this.renderQuiz()}
+        {this.state.grade ? this.renderGrade() : this.renderJSQuiz()}
       </div>
     );
   }

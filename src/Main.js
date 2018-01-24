@@ -23,7 +23,7 @@ class Main extends Component {
               <li><NavLink to="/about">About</NavLink></li>
             </ul>
 
-            <h1>React App</h1>
+            <h1>Portfolio in React javascript</h1>
 
             <div className="content">
               <Route exact path="/" component={Home}/>

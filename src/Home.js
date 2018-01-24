@@ -9,7 +9,7 @@ class Home extends Component {
         and technical engineering. Both the hardware and software worlds are being
         driven by customers demanding better and faster applications. This keeps the
         invocation live and continuously changing.
-        This definition allows me to grow with the industry and be challenged.
+        This definition will me to grow with the industry and be challenged.
         </p>
 
         <p>Keith Robinson.</p>

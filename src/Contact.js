@@ -9,8 +9,8 @@ class Contact extends Component {
           <li>Keith Robinson</li>
           <li>krobnson@gmail.com</li>
           <li>(702) 510-3268</li>
-          <li>https://github.com/robbee72</li>
-        </ul>  
+          <li>https://github.com/robbee"</li>
+        </ul>
       </div>
     );
   }
